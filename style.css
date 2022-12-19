@@ -1,0 +1,38 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+h1{
+     text-align: center;
+     font-size: 40px;
+     font-family: cursive;
+     font-weight: bold;
+     text-transform: capitalize;
+     margin-top: 20px;
+     color: cornflowerblue;
+}
+.produtch{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.produtcs-small-img img{
+     height: 92px;
+     margin: 10px 0;
+     cursor: pointer;
+     display: block;
+     padding: 0 10px;
+     opacity: 0.6;
+     transition: 0.4s;
+}
+.produtcs-small-img img:hover{
+     opacity: 1;
+}
+.img-contenter img{
+     height: 500px;
+}
+ 

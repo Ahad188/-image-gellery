@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Image Gelary</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+     <h1>This is A Image Gallery</h1>
+     <div class="produtch">
+          <div class="produtcs-small-img">
+               <img src="./m/IMG_20200111_164706.jpg" alt="" onclick="myFunction(this)">
+               <img src="./m/IMG_20190819_190404.jpg" alt="" onclick="myFunction(this)">
+               <img src="./m/IMG_20191231_190441.jpg" alt="" onclick="myFunction(this)">
+               <img src="./m/IMG_20191231_190601.jpg" alt="" onclick="myFunction(this)">
+               <img src="./m/IMG_20200111_162953.jpg" alt="" onclick="myFunction(this)">
+          </div>
+          <div class="img-contenter">
+               <img src="./m/IMG_20190727_160111.jpg" alt="" id="img-box">
+          </div>
+     </div>
+     <script>
+          function myFunction(smallimg){
+             var fullImg = document.getElementById("img-box");
+             fullImg.src = smallimg.src;
+          }
+     </script>
+</body>
+</html>
